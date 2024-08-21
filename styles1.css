@@ -1,0 +1,105 @@
+/* GENERAL */
+
+body {
+   background-color: #8fc9fc;
+   font-family: Verdana;
+   font-weight: 500;
+   font-size: 125%;
+}
+
+box {
+   display: inline-block;
+   width: 390px;
+   height: 230px;
+   background-color: whitesmoke;
+   border-radius: 15px;
+}
+
+p { 
+   width: 300px;
+   color: #156bb3;
+}
+
+/* VENTANA */
+
+.pres {
+   width: 400px;
+   position: relative;
+     bottom: -10px;
+     left: 650px;
+     z-index: 1;
+}
+
+.icon {
+ width: 30px;
+ height: 20px;
+ position: relative;
+   top: -228px; right: 168px;
+}
+
+.search {
+   display: inline-block;
+   width: 380px;
+   height: 25px;
+   background-color: #8fc9fc;
+   margin-top: 7px;
+   border-radius: 15px;
+}
+
+.buscador {
+   font-size: 65%;
+   font-weight: bold;
+   color: whitesmoke;
+   position: relative;
+    top: -35px; right: 86px;
+}
+
+.cerrar {
+    display: inline-block;
+    background-color: #ff9d00;
+    width: 30px;
+    height: 20px;
+    position: relative;
+     top: -144px; right: -148px;
+}
+
+.equis {
+    font-size: 95%;
+    color: whitesmoke;
+    position: relative;
+     top: -190px; left: 171px;
+}
+  
+button {
+   background-color: #8fc9fc;
+   border: 0;
+   border-radius: 15px;
+   margin-left: 30px;
+   font-size: medium;
+   color: white;
+   cursor: pointer;
+}
+
+/* BARRA NAVEGACIÓN */
+
+h {
+    color: whitesmoke;
+    font-size: 80%;
+    float: left;
+    margin-left: 7px;
+}
+.nav {
+    display: block;
+    background-color: #156bb3;
+    width: 227px;
+    height: 25px;
+    position: relative;
+    bottom: 163px;
+    right: 285px;
+    z-index: -1;
+    margin-bottom: 10px;
+}
+
+.nav:hover {
+    background-color: #ff9d00; 
+}
