@@ -16,7 +16,6 @@ box {
 }
 
 p { 
-   margin: 30px;
    width: 300px;
    font-size: 90%;
    color: #156bb3;
@@ -27,8 +26,8 @@ p {
 .ventana {
        box-shadow: inset -3px -3px #68A0EF,
                    inset 2px 2px #C2E2FF;
-       position: fixed;
-        left: 765px;
+       position: relative;
+        left: 45px;
        z-index: 2;
 }
 
@@ -47,8 +46,8 @@ span {
 .icon {
  width: 30px;
  height: 20px;
- position: fixed;
-   top: 17px; left: 778px;
+ position: relative;
+   bottom: -2px; right: 168px;
 }
 
 .search {
@@ -65,8 +64,8 @@ span {
    font-weight: bold;
    color: whitesmoke;
    margin: 0;
-   position: fixed;
-    top: 20px; left: 733px;
+   position: relative;
+    bottom: 21px; right: 80px;
 }
 
 .cerrar {
@@ -84,7 +83,7 @@ span {
     font-size: 95%;
     color: whitesmoke;
     position: absolute;
-     top: -33px; right: -165px;
+     top: -23px; right: -135px;
 }
   
 button {
@@ -120,8 +119,8 @@ h {
     width: 227px;
     height: 25px;
     position: relative;
-    top: 108px;
-    right: 300px;
+    bottom: 110px;
+    right: 255px;
     margin-bottom: 10px;
     z-index: 1;
 }
@@ -129,6 +128,10 @@ h {
 .nav:hover {
     background: linear-gradient(#ff9d00, #F56C3C); 
     cursor: pointer;
+}
+
+.nav:hover {
+    background-color: #ff9d00; 
 }
 
 .nav:hover {
