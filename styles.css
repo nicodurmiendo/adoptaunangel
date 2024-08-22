@@ -27,7 +27,8 @@ p {
 .ventana {
        box-shadow: inset -3px -3px #68A0EF,
                    inset 2px 2px #C2E2FF;
-       position: relative;
+       position: fixed;
+        left: 765px;
        z-index: 2;
 }
 
@@ -37,9 +38,9 @@ span {
 
 .arael-pres {
    width: 400px;
-   position: fixed;
+   position: absolute;
      top: 10px;
-     right: 450px;
+     left: 315px;
      z-index: 3;
 }
 
@@ -73,8 +74,8 @@ span {
     background-color: #ff9d00;
     width: 30px;
     height: 20px;
-    position: fixed;
-     top: 18px; right: 775px;
+    position: absolute;
+     top: 10px; left: 348px;
     box-shadow: inset -2px -2px #F56C3C,
                inset 1px 1px #FFBD5A;
 }
@@ -82,8 +83,8 @@ span {
 .equis {
     font-size: 95%;
     color: whitesmoke;
-    position: fixed;
-     top: -16px; right: 610px;
+    position: absolute;
+     top: -33px; right: -165px;
 }
   
 button {
@@ -119,8 +120,8 @@ h {
     width: 227px;
     height: 25px;
     position: relative;
-    top: -110px;
-    left: -300px;
+    top: 108px;
+    right: 300px;
     margin-bottom: 10px;
     z-index: 1;
 }
@@ -128,7 +129,6 @@ h {
 .nav:hover {
     background: linear-gradient(#ff9d00, #F56C3C); 
     cursor: pointer;
-}tom: 10px;
 }
 
 .nav:hover {
