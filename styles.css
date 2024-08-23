@@ -1,8 +1,13 @@
 /* GENERAL */
 
+@font-face { 
+    font-family: Volter; 
+    src: url('Volter__28Goldfish_29.ttf'); 
+} 
+
 body {
    background-color: #8fc9fc;
-   font-family: Verdana;
+   font-family: Volter;
    font-weight: 500;
    font-size: 125%;
 }
@@ -50,7 +55,7 @@ span {
    bottom: -2px; right: 168px;
 }
 
-.search {
+.barra {
    display: inline-block;
    width: 380px;
    height: 25px;
@@ -59,13 +64,13 @@ span {
    border-radius: 10px;
 }
 
-.buscador {
+.titulo {
    font-size: 69%;
    font-weight: bold;
    color: whitesmoke;
    margin: 0;
    position: relative;
-    bottom: 21px; right: 80px;
+    bottom: 18px; right: 80px;
 }
 
 .cerrar {
@@ -82,6 +87,7 @@ span {
 .equis {
     font-size: 95%;
     color: whitesmoke;
+    font-weight: bold;
     position: absolute;
      top: -23px; right: -135px;
 }
@@ -90,6 +96,7 @@ button {
    background-color: #8fc9fc;
    border: 0;
    border-radius: 15px;
+   font-family: Volter;
    font-size: medium;
    color: white;
    cursor: pointer;
@@ -108,10 +115,10 @@ button:hover {
 
 h {
     color: whitesmoke;
-    font-size: 80%;
+    font-size: 70%;
     float: left;
     margin-left: 7px;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 .nav {
     display: block;
@@ -133,6 +140,48 @@ h {
 .nav:hover {
     background-color: #ff9d00; 
 }
-.nav:hover {
-    background-color: #ff9d00; 
+
+/* ÁNGELES EN ADOPCIÓN */
+
+#titulo2 {
+    right: 65px;
+}
+
+.borde {
+    width: 500px;
+    height: 400px;
+    background-color: #68A0EF;
+    box-shadow: inset -3px -3px #3A7ECC,
+                   inset 2px 2px #8fc9fc;
+    position: relative;
+       bottom: 293px; left: 370px;
+    z-index: 3;
+}
+
+.info {
+    width: 260px;
+    height: 360px;
+    box-shadow: inset 3px 3px #3A7ECC;
+    position: relative;
+      bottom: 315px; right: 323px;
+    z-index: 4;
+    
+}
+
+#abaddonito {
+ background-image: url("Imagenes/abaddon-front.png");
+ border: 0px;
+    margin-right: 5px;
+ width: 200px;
+ height: 331px;
+    position: relative;
+     bottom: 325px; right: 83px;
+    z-index: 5;
+}
+
+.angel {
+    position: relative;
+     top: 40px; left: 338px;
+    font-weight: bold;
+    margin: 0;
 }
